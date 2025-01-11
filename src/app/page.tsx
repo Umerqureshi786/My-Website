@@ -30,7 +30,7 @@ export default function Homepage() {
       </div>
 
 
-      <br /> <br />
+      
 
 
       <div className='flex flex-col items-center'>
