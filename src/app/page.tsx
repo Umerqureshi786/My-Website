@@ -1,4 +1,4 @@
-import { Navbar } from './Navbar'; // Import your Navbar component
+import { Navbar } from './Navbar';
 import Image from 'next/image';
 import { Footer } from './Footer';
 export default function Homepage() {
@@ -9,8 +9,8 @@ export default function Homepage() {
 
       <div className='grid grid-cols-2 gap-2 mt-8'>
 
-        <div className='ml-72 w-max'>
-          <h1 className='text-7xl text-white font-bold mt-10'>HI!</h1>
+        <div className='ml-96 w-max'>
+          <h1 className='text-7xl text-white font-bold mt-20'>HI!</h1>
           <br /> <br />
           <h1 className='text-6xl text-black font-sans font-bold'>I'M UMAR QURESHI </h1>
           <h1 className='text-6xl text-black font-sans mt-4 font-bold'>PROFESSIONAL</h1> <br />
@@ -18,9 +18,12 @@ export default function Homepage() {
         </div>
 
 
+
+
+
         <div className=' '>
 
-          <Image src={"/Avatar.png"} alt='Umar avatar' width={400} height={300} className='ml-16 -mt-20 ' />
+          <Image src={"/Avatar.png"} alt='Umar avatar' width={400} height={300} className='ml-32 -mt-20 ' />
 
 
         </div>
@@ -30,7 +33,7 @@ export default function Homepage() {
       </div>
 
 
-      
+
 
 
       <div className='flex flex-col items-center'>
@@ -59,7 +62,7 @@ export default function Homepage() {
 
         <div className='flex justify-center py-12 px-10 '>
 
-          <p className='text-white p-2 text-justify'> As a prefessional web developer i enjoys building websites that are both user-friendly and visually appealing. Along with my web development skills, I have experience in designing modern and creative layouts, improving website visibility through SEO, and creating cross-platform mobile applications using Flutter. Additionally, I have a strong interest in Artificial Intelligence (AI) and Machine Learning (ML), and I enjoy working on projects that integrate smart, data-driven solutions. I am passionate about turning ideas into fully functional projects that make a real impact. Whether it’s crafting a responsive website, optimizing it for search engines, developing a mobile app, or implementing AI and ML solutions, I love helping businesses grow and succeed in the digital world.
+          <p className='text-white p-2 text-justify'> As a Web Developer i enjoys building websites that are both user-friendly and visually appealing. Along with my web development skills, I have experience in designing modern and creative layouts, improving website visibility through SEO, and creating cross-platform mobile applications using Flutter. Additionally, I have a strong interest in Artificial Intelligence (AI) and Machine Learning (ML), and I enjoy working on projects that integrate smart, data-driven solutions. I am passionate about turning ideas into fully functional projects that make a real impact. Whether it’s crafting a responsive website, optimizing it for search engines, developing a mobile app, or implementing AI and ML solutions, I love helping businesses grow and succeed in the digital world.
 
           </p>
 
@@ -124,9 +127,8 @@ export default function Homepage() {
 
 
 
-
-
       <br /> <br /> <br /> <br />
+
       <div>
 
         <div className='flex flex-col items-center'>
@@ -158,7 +160,7 @@ export default function Homepage() {
               </div>
 
               <h1 className='font-bold text-lg text-white mt-2'>App Development</h1>
-              <p className='text-justify p-2 text-white'>Competent in using frameworks like Flutter, React Native, and Android Studio. Experienced in building responsive, optimized, and user-friendly mobile apps!
+              <p className='text-justify p-2 text-white'>Competent in using frameworks like Flutter, React Native, and Android Studio. Learning to create responsive, optimized, and user-friendly mobile apps!
 
               </p>
 
@@ -216,39 +218,103 @@ export default function Homepage() {
             </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
           </div>
+
+
+        </div>
+
+        <br /> <br /> <br />
+
+
+        <div className='flex flex-col items-center'>
+
+          <div>
+            <h1 className='text-3xl font-bold text-white'> WORK </h1>
+          </div>
+
+          <div className='grid grid-cols-2 gap-16 mt-12'>
+
+
+            <div className='bg-sky-900 border-2 border-white rounded-xl text-center text-white font-bold text-xl'><p>Governor House Website</p>
+
+              <Image src={"/Governor.png"} alt='governor house' height={320} width={320} className='rounded-xl w-full h-full object-cover opacity-0 hover:opacity-100 transition-opacity duration-1000 mt-2' />
+
+            </div>
+
+
+
+
+
+
+            <div className=' bg-sky-900 border-2 border-white rounded-xl text-center text-white font-bold text-xl'>Formuli Cricket Club
+              Website<Image src={"/Formuli.png"} alt='cricket club' height={320} width={320} className='rounded-xl w-full h-full object-cover opacity-0 hover:opacity-100 transition-opacity duration-1000 mt-2' />
+
+            </div>
+
+            <div className='  rounded-xl border-2 border-white bg-sky-900 text-center text-white font-bold text-xl'> Rent A Car Website
+              <Image src={"/Ecommerce.png"} alt='Ecommerce web' height={320} width={320} className='rounded-xl w-full h-full object-cover opacity-0 hover:opacity-100 transition-opacity duration-1000 mt-2' />
+
+            </div>
+
+
+            <div className='  rounded-xl border-2 border-white  bg-sky-900 text-center text-white font-bold text-xl'>Github Website
+              <Image src={"/Github.png"} alt='Github' height={320} width={320} className='rounded-xl w-full h-full object-cover opacity-0 hover:opacity-100 transition-opacity duration-1000 mt-2' />
+
+            </div>
+          </div>
+          <br /> <br /> <br />
 
 
 
         </div>
 
+        <br /> <br />
+
+
+
+
+        <div className='flex flex-col  bg-sky-900 text-white gap-10'>
+          <div className='flex flex-col items-center'>
+            <h1 className='text-3xl font-bold text-white mt-3'>CONTACT ME</h1>
+          </div>
+
+          <div className='flex  gap-4 mt-4 ml-96'>
+            <Image src={"/communication.png"} alt='Email' width={40} height={40} />
+            <p className='mt-2'>:</p>
+            <p className='mt-2'>qureshiumer776@gmail.com</p>
+          </div>
+
+          <div className='flex gap-4  ml-96'>
+            <Image src={"/phone.png"} alt='call' width={40} height={40} />
+            <p className='mt-2'>:</p>
+            <p className='mt-2'>0348-2500818</p>
+          </div>
+
+
+          <div className='flex gap-4  ml-96 '>
+            <Image src={"/map.png"} alt='map' width={40} height={40} />
+            <p className='mt-2'>:</p>
+            <p className='mt-2'> Massan Road Near Shireen Jinnah Colony, Clifton, Karachi</p>
+          </div>
+
+
+
+
+          <br />
+
+
+        </div>
+
+
+
+        <br />
+
+
+        <Footer />
+
+
 
       </div>
-
-<br /> <br />
-
-      <Footer />
-
-
 
     </div>
   );

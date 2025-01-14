@@ -37,51 +37,55 @@ export const Footer = () => {
                     <a href="#" className=''>Privacy Policy</a>
                     <a href="#">Hire Me</a>
                     <a href="#">Terms & Conditions</a>
+
+
+                    
                 </div>
+
+                
             </div>
 
-
-            <div className='flex justify-between px-8  bg-sky-950  '>
-
+<div className=' flex justify-center gap-4  mb-4 mt-8'>
 
 
-                <div className='mt-8'>
-                    <p className='text-white ml-20'>Portfolio Website © 2025 Designed by <b > Umar Qureshi</b> </p>
+            <div className='mb-4'>
+              <a href="https://www.facebook.com/umer.lilly.9/" target='blank'> <Image src={"/Facebook.png"} alt='facebook' height={40} width={40} /> </a>
+
+            </div>
+
+            <div>
+              <a href="https://www.instagram.com/umer.qurexhi0?igsh=eW1mNjk4NjNsOHQx" target='blank'> <Image src={"/instagram.png"} alt='instagram' height={40} width={40} /> </a>
+
+            </div>
+
+            <div>
+              <Image src={"/linkedin.png"} alt='linkedin' height={40} width={40} />
+
+            </div>
+
+            <div>
+              <a href="https://www.youtube.com/@Hafizumar776" target='blank'><Image src={"/youtube.png"} alt='youtube' height={40} width={40} /> </a>
+
+            </div>
+
+            <div>
+              <Image src={"/whatsapp.png"} alt='whatsapp' height={40} width={40} />
+
+            </div>
+
+          </div>
+
+
+
+
+
+
+            <div className='flex justify-between  bg-sky-950  '>
+
+                <div className=' w-full text-center'>
+                    <p className='text-white mt-4 mb-4'>UMAR_QURESHI copyright © 2025 </p>
                 </div>
 
-                <div className=' flex gap-4 mr-48 mb-4 mt-8'>
-                    <h1 className='mt-1 font-semibold text-white'>Social Links:</h1>
-
-                    <div>
-                        <Image src={"/Facebook.png"} alt='facebook' height={30} width={30} />
-
-                    </div>
-
-                    <div>
-                        <Image src={"/instagram.png"} alt='instagram' height={30} width={30} />
-
-                    </div>
-
-                    <div>
-                        <Image src={"/linkedin.png"} alt='linkedin' height={30} width={30} />
-
-                    </div>
-
-                    <div>
-                        <Image src={"/youtube.png"} alt='youtube' height={30} width={30} />
-
-                    </div>
-
-                    <div>
-                        <Image src={"/whatsapp.png"} alt='whatsapp' height={30} width={30} />
-
-                    </div>
-
-
-
-
-
-                </div>
             </div>
 
 
