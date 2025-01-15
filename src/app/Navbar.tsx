@@ -6,7 +6,7 @@ export const Navbar = () => {
 
             {/* Logo Section */}
             <div className="sm:text-center">
-                <h1 className="text-white text-2xl font-bold ">Umar</h1>
+                <h1 className="text-white text-2xl font-bold ">Hafiz Umar Qureshi</h1>
             </div>
 
             {/* Links Section */}

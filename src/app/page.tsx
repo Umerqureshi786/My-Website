@@ -9,11 +9,11 @@ export default function Homepage() {
 
       <div className='grid grid-cols-2 gap-2 mt-8'>
 
-        <div className='ml-96 w-max'>
+        <div className='ml-80 w-max'>
           <h1 className='text-7xl text-white font-bold mt-20'>HI!</h1>
           <br /> <br />
-          <h1 className='text-6xl text-black font-sans font-bold'>I'M UMAR QURESHI </h1>
-          <h1 className='text-6xl text-black font-sans mt-4 font-bold'>PROFESSIONAL</h1> <br />
+          <h1 className='text-6xl text-white font-sans font-bold'>I'M UMAR QURESHI </h1>
+          <h1 className='text-6xl text-white font-sans mt-4 font-bold'>PROFESSIONAL</h1> <br />
           <h1 className='text-5xl font-bold text-sky-700 font-sans mt-4 bg-white w-max px-3 rounded-xl p-2 border-4  border-black hover:bg-sky-700  hover:text-white'>WEB DEVELOPER</h1>
         </div>
 
@@ -21,9 +21,9 @@ export default function Homepage() {
 
 
 
-        <div className=' '>
+        <div className=' mt-10'>
 
-          <Image src={"/Avatar.png"} alt='Umar avatar' width={400} height={300} className='ml-32 -mt-20 ' />
+          <Image src={"/Main.jpg"} alt='Umar ' width={400} height={400} className='ml-32 rounded-3xl mt-16 border-2 shadow-2xl border-white'/>
 
 
         </div>
@@ -33,7 +33,7 @@ export default function Homepage() {
       </div>
 
 
-
+<br /><br /> <br /> <br /> <br />
 
 
       <div className='flex flex-col items-center'>
@@ -52,17 +52,17 @@ export default function Homepage() {
 
       </div>
 
-      <div className='grid grid-cols-2 gap-12 px-24 mt-8'>
+      <div className='grid grid-cols-1 gap-12 px-24 mt-2'>
 
-        <div className='flex justify-end'>
+        {/* <div className='flex justify-end'>
 
           <Image src={"/Umar.jpeg"} alt='Umar' width={300} height={300} className='rounded-full ' />
 
-        </div>
+        </div> */}
 
         <div className='flex justify-center py-12 px-10 '>
 
-          <p className='text-white p-2 text-justify'> As a Web Developer i enjoys building websites that are both user-friendly and visually appealing. Along with my web development skills, I have experience in designing modern and creative layouts, improving website visibility through SEO, and creating cross-platform mobile applications using Flutter. Additionally, I have a strong interest in Artificial Intelligence (AI) and Machine Learning (ML), and I enjoy working on projects that integrate smart, data-driven solutions. I am passionate about turning ideas into fully functional projects that make a real impact. Whether it’s crafting a responsive website, optimizing it for search engines, developing a mobile app, or implementing AI and ML solutions, I love helping businesses grow and succeed in the digital world.
+          <p className='text-white p-2 text-justify px-48'> As a Web Developer i enjoys building websites that are both user-friendly and visually appealing. Along with my web development skills, I have experience in designing modern and creative layouts, improving website visibility through SEO, and creating cross-platform mobile applications using Flutter. Additionally, I have a strong interest in Artificial Intelligence (AI) and Machine Learning (ML), and I enjoy working on projects that integrate smart, data-driven solutions. I am passionate about turning ideas into fully functional projects that make a real impact. Whether it’s crafting a responsive website, optimizing it for search engines, developing a mobile app, or implementing AI and ML solutions, I love helping businesses grow and succeed in the digital world.
 
           </p>
 
@@ -87,26 +87,26 @@ export default function Homepage() {
 
 
               <ul className="list-disc"> <li>May 2010 - Dec 2012</li></ul>
-              <h1 className='font-bold text-xl'>Hafiz e Quran</h1>
+              <h1 className='font-bold text-xl text-amber-400'>Hafiz e Quran</h1>
               <p>Iqra Jamia Rouza Tul Atfal</p>
 
               <br />
 
 
               <ul className="list-disc"> <li>Mar 2015 - June 2017</li></ul>
-              <h1 className='font-bold text-xl'>Intermediate, Pre-Engineering</h1>
+              <h1 className='font-bold text-xl text-amber-400'>Intermediate, Pre-Engineering</h1>
               <p>FG Boys Inter College Karachi</p>
 
               <br />
 
               <ul className="list-disc"><li>Feb 2018 - Mar 2022 </li></ul>
-              <h1 className='font-bold text-xl'>Bachelors, CSIT</h1>
+              <h1 className='font-bold text-xl text-amber-400'>Bachelors, CSIT</h1>
               <p>BBSUL Karachi</p>
 
               <br />
 
               <ul className="list-disc"> <li>Feb 2024 - Present</li> </ul>
-              <h1 className='font-bold text-xl'>Web 3, AI, & Metaverse</h1>
+              <h1 className='font-bold text-xl text-amber-400'>Web 3, AI, & Metaverse</h1>
               <p>Governor's Initiative for Artificial Intelligence & Computing</p>
 
 
