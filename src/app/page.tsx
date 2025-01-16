@@ -23,7 +23,7 @@ export default function Homepage() {
 
         <div className=' mt-10'>
 
-          <Image src={"/Main.jpg"} alt='Umar ' width={400} height={400} className='ml-32 rounded-3xl mt-16 border-2 shadow-2xl border-white'/>
+          <Image src={"/Main 2.png"} alt='Umar ' width={400} height={400} className='ml-32 rounded-3xl mt-16 border-2 shadow-2xl shadow-sky-300 border-white'/>
 
 
         </div>
@@ -131,17 +131,17 @@ export default function Homepage() {
 
       <div>
 
-        <div className='flex flex-col items-center'>
+        <div className='flex flex-col items-center '>
 
           {/* Horizontal Line Above */}
           <div className="w-1/2 border-t-2 border-gray-300 mb-4"></div>
 
-          <h1 className='text-3xl font-bold text-white'> SKILLS</h1>
+          <h1 className='text-3xl font-bold text-white '> SKILLS</h1>
 
           <div className='grid grid-cols-3 gap-4 mt-10 px-60 '>
 
 
-            <div className='border-2 border-white text-center rounded-md bg-sky-950'>
+            <div className='border-2 border-white text-center rounded-md bg-sky-950 '>
               <div className='flex justify-center mt-4'><Image src={"/coding.png"} alt='coding' width={40} height={40} />
               </div>
               <h1 className='font-bold text-lg text-white mt-2'>Web Development</h1>
