@@ -11,14 +11,14 @@ export const Navbar = () => {
 
             {/* Links Section */}
             <div className="flex gap-6 text-white text-sm sm:gap-4 sm:text-xs md:text-base lg:text-lg">
-                <a href="#" className="hover:bg-black border-2 border-white px-2 py-1 rounded-lg hover:active:text-sky-200 md:px-3 lg:px-4">About</a>
+                <a href="#About" className="hover:bg-black border-2 border-white px-2 py-1 rounded-lg hover:active:text-sky-200 md:px-3 lg:px-4">About</a>
 
-                <a href="#" className="hover:bg-black border-2 border-white px-2 py-1 rounded-lg hover:active:text-sky-200 md:px-3 lg:px-4"> Skills</a>
+                <a href="#Skills" className="hover:bg-black border-2 border-white px-2 py-1 rounded-lg hover:active:text-sky-200 md:px-3 lg:px-4"> Skills</a>
 
-                <a href="#" className="hover:bg-black border-2 border-white px-2 py-1 rounded-lg hover:active:text-sky-200 md:px-3 lg:px-4">Work</a>
+                <a href="#Work" className="hover:bg-black border-2 border-white px-2 py-1 rounded-lg hover:active:text-sky-200 md:px-3 lg:px-4">Work</a>
 
 
-                <a href="#" className="hover:bg-black border-2 border-white px-2 py-1 rounded-lg hover:active:text-sky-200 md:px-3 lg:px-4 "> Contact </a>
+                <a href="#Contact" className="hover:bg-black border-2 border-white px-2 py-1 rounded-lg hover:active:text-sky-200 md:px-3 lg:px-4 "> Contact </a>
             </div>
         </div>
     );

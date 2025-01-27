@@ -23,7 +23,7 @@ export default function Homepage() {
 
         <div className=' mt-10'>
 
-          <Image src={"/Main 2.png"} alt='Umar ' width={400} height={400} className='ml-32 rounded-3xl mt-16 border-2 shadow-2xl shadow-sky-300 border-white'/>
+          <Image src={"/Main 2.png"} alt='Umar ' width={400} height={400} className='ml-32 rounded-3xl mt-16 border-2 shadow-2xl shadow-sky-300 border-white' />
 
 
         </div>
@@ -32,14 +32,21 @@ export default function Homepage() {
 
       </div>
 
+      <section id="About" />
 
-<br /><br /> <br /> <br /> <br />
+      <br /><br /> <br /> <br /> <br />
 
 
       <div className='flex flex-col items-center'>
 
         {/* Horizontal Line Above */}
+
+
+
+
+
         <div className="w-1/2 border-t-2 border-gray-300 mb-4"></div>
+
 
         <h1 className='text-3xl font-bold text-white'> ABOUT ME</h1>
         <div className='p-6 w-96 mt-2'>
@@ -126,10 +133,17 @@ export default function Homepage() {
       </div>
 
 
+      <section id="Skills" />
 
       <br /> <br /> <br /> <br />
 
+
+
+
       <div>
+
+
+
 
         <div className='flex flex-col items-center '>
 
@@ -223,7 +237,11 @@ export default function Homepage() {
 
         </div>
 
+
+        <section id="Work" />
+
         <br /> <br /> <br />
+
 
 
         <div className='flex flex-col items-center'>
@@ -243,6 +261,15 @@ export default function Homepage() {
 
 
 
+            <div className=' bg-sky-900 border-2 border-white rounded-xl text-center text-white font-bold text-xl'>Saylani Microfinance App
+              Website<Image src={"/Saylani.png"} alt='saylani microfinance' height={320} width={320} className='rounded-xl w-full h-full object-cover opacity-0 hover:opacity-100 transition-opacity duration-1000 mt-2' />
+
+            </div>
+
+            <div className=' bg-sky-900 border-2 border-white rounded-xl text-center text-white font-bold text-xl'>Iqra School Website
+              Website<Image src={"/Iqra.png"} alt='Iqra school' height={320} width={320} className='rounded-xl w-full h-full object-cover opacity-0 hover:opacity-100 transition-opacity duration-1000 mt-2' />
+
+            </div>
 
 
 
@@ -267,6 +294,9 @@ export default function Homepage() {
 
 
         </div>
+
+        <section id="Contact" />
+
 
         <br /> <br />
 
