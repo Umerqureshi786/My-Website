@@ -7,7 +7,7 @@ export default function Homepage() {
 
       <Navbar />
 
-      <div className='grid grid-cols-2 gap-2 mt-8'>
+      <div className='grid grid-cols-1 gap-2 mt-8 sm:grid-cols-1 md:grid-cols-2'>
 
         <div className='ml-80 w-max'>
           <h1 className='text-7xl text-white font-bold mt-20'>HI!</h1>
@@ -21,7 +21,7 @@ export default function Homepage() {
 
 
 
-        <div className=' mt-10'>
+        <div className=' mt-10 '>
 
           <Image src={"/Main 2.png"} alt='Umar ' width={400} height={400} className='ml-32 rounded-3xl mt-16 border-2 shadow-2xl shadow-sky-300 border-white' />
 
