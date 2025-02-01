@@ -10,30 +10,38 @@ export default function Homepage() {
 
       <Navbar />
 
-      <div className='grid grid-cols-1 gap-2 mt-8 sm:grid-cols-1 md:grid-cols-2'>
+      <div className='grid grid-cols-1 gap-2 mt-8 md:grid-cols-2'>
+        {/* Left Column - Text Content */}
+        <div className='md:ml-20 lg:ml-32 xl:ml-40 mx-4 sm:mx-8 md:mx-0 text-center md:text-left'>
+          <h1 className='text-5xl sm:text-6xl md:text-7xl text-white font-bold mt-8 md:mt-20'>
+            HI!
+          </h1>
 
-        <div className='ml-80 w-max'>
-          <h1 className='text-7xl text-white font-bold mt-20'>HI!</h1>
-          <br /> <br />
-          <h1 className='text-6xl text-white font-sans font-bold'>I'M UMAR QURESHI </h1>
-          <h1 className='text-6xl text-white font-sans mt-4 font-bold'>PROFESSIONAL</h1> <br />
-          <h1 className='text-5xl font-bold text-sky-700 font-sans mt-4 bg-white w-max px-3 rounded-xl p-2 border-4  border-black hover:bg-sky-700  hover:text-white'>WEB DEVELOPER</h1>
+          <div className='space-y-4 mt-6 md:mt-12'>
+            <h1 className='text-4xl sm:text-5xl md:text-6xl text-white font-sans font-bold'>
+              I'M UMAR QURESHI
+            </h1>
+            <h1 className='text-4xl sm:text-5xl md:text-6xl text-white font-sans font-bold'>
+              PROFESSIONAL
+            </h1>
+            <div className='flex justify-center md:justify-start'>
+              <h1 className='text-3xl sm:text-4xl md:text-5xl font-bold text-sky-700 font-sans bg-white w-max px-3 rounded-xl p-2 border-4 border-black hover:bg-sky-700 hover:text-white transition-all'>
+                WEB DEVELOPER
+              </h1>
+            </div>
+          </div>
+
         </div>
 
-
-
-
-
-        <div className=' mt-10 '>
-
-          <Image src={"/Main 2.png"} alt='Umar ' width={400} height={400} className='ml-32 rounded-3xl mt-16 border-2 shadow-2xl shadow-sky-300 border-white' />
-
-
+        {/* Right Column - Image */}
+        <div className='mt-8 md:mt-10 flex justify-center md:justify-start'>
+          <Image src={"/Main 2.png"} alt='Umar' width={400} height={400}
+            className='w-3/4 sm:w-2/3 md:w-3/4 lg:w-2/3 xl:w-1/2 rounded-3xl border-2 shadow-2xl shadow-sky-300 border-white mx-auto md:ml-8 lg:ml-12'
+          />
         </div>
-
-
-
       </div>
+
+
 
       <section id="About" />
 
@@ -52,9 +60,12 @@ export default function Homepage() {
 
 
         <h1 className='text-3xl font-bold text-white'> ABOUT ME</h1>
-        <div className='p-6 w-96 mt-2'>
-          <p className='text-justify text-white'>I'm Hafiz Umar Qureshi, a Computer Science and Software Engineering graduate from NED University. I’m passionate about technology and aim to create helpful solutions through my work.</p>
+        <div className="p-3 sm:p-2 w-full sm:w-96 mt-2  max-w-md mx-auto">
+          <p className="text-justify text-white px-12 text-lg">
+            I&apos;m Hafiz Umar Qureshi, a Computer Science and Software Engineering graduate from NED University. I&apos;m passionate about technology and aim to create helpful solutions through my work.
+          </p>
         </div>
+
 
         {/* Horizontal Line Below */}
         <div className="w-1/2 border-t-2 border-gray-300 mt-4"></div>
@@ -70,71 +81,81 @@ export default function Homepage() {
 
         </div> */}
 
-        <div className='flex justify-center py-12 px-10 '>
+        <div className='flex justify-center  sm:p-6'>
 
-          <p className='text-white p-2 text-justify px-48'> As a Web Developer i enjoys building websites that are both user-friendly and visually appealing. Along with my web development skills, I have experience in designing modern and creative layouts, improving website visibility through SEO, and creating cross-platform mobile applications using Flutter. Additionally, I have a strong interest in Artificial Intelligence (AI) and Machine Learning (ML), and I enjoy working on projects that integrate smart, data-driven solutions. I am passionate about turning ideas into fully functional projects that make a real impact. Whether it’s crafting a responsive website, optimizing it for search engines, developing a mobile app, or implementing AI and ML solutions, I love helping businesses grow and succeed in the digital world.
-
+          <p className='text-white text-lg sm:text-base md:text-lg 
+               sm:px-8 md:px-12 lg:px-24 xl:px-32 
+              max-w-[100%] sm:max-w-[90%] md:max-w-[85%] lg:max-w-[80%] xl:max-w-[70%]
+              text-justify leading-relaxed sm:leading-loose
+              mx-auto'>
+            As a Web Developer, I enjoy building websites that are both user-friendly and visually appealing.
+            Along with my web development skills, I have experience in designing modern and creative layouts,
+            improving website visibility through SEO, and creating cross-platform mobile applications using Flutter.
+            Additionally, I have a strong interest in Artificial Intelligence (AI) and Machine Learning (ML),
+            and I enjoy working on projects that integrate smart, data-driven solutions.
+            I am passionate about turning ideas into fully functional projects that make a real impact.
+            Whether it's crafting a responsive website, optimizing it for search engines, developing a mobile app,
+            or implementing AI and ML solutions, I love helping businesses grow and succeed in the digital world.
           </p>
-
         </div>
+
+
       </div>
 
 
 
-      <div className='flex gap-20 mt-10'>
+      <div className='flex flex-col lg:flex-row gap-10 lg:gap-20 mt-8 lg:mt-10 '>
 
-        <div className=' ml-40'>
-
-          <div className='ml-48 text-white'>
-
-            <div>
-              <h1 className='text-3xl font-bold text-white ml-3'>EDUCATION:</h1>
+        {/* Education Section */}
+        <div className='lg:ml-12 xl:ml-20 px-4 sm:px-6 md:px-8 lg:px-0 '>
+          <div className='lg:ml-12 xl:ml-16 text-white'>
+            <div className=' text-center '>
+              <h1 className='text-3xl md:text-2xl lg:text-3xl font-bold text-white mt-4 lg:mt-6'>EDUCATION:</h1>
             </div>
 
-            <br />
-
-            <div className='ml-5 p-4'>
-
-
-              <ul className="list-disc"> <li>May 2010 - Dec 2012</li></ul>
-              <h1 className='font-bold text-xl text-amber-400'>Hafiz e Quran</h1>
-              <p>Iqra Jamia Rouza Tul Atfal</p>
-
-              <br />
-
-
-              <ul className="list-disc"> <li>Mar 2015 - June 2017</li></ul>
-              <h1 className='font-bold text-xl text-amber-400'>Intermediate, Pre-Engineering</h1>
-              <p>FG Boys Inter College Karachi</p>
-
-              <br />
-
-              <ul className="list-disc"><li>Feb 2018 - Mar 2022 </li></ul>
-              <h1 className='font-bold text-xl text-amber-400'>Bachelors, CSIT</h1>
-              <p>BBSUL Karachi</p>
-
-              <br />
-
-              <ul className="list-disc"> <li>Feb 2024 - Present</li> </ul>
-              <h1 className='font-bold text-xl text-amber-400'>Web 3, AI, & Metaverse</h1>
-              <p>Governor's Initiative for Artificial Intelligence & Computing</p>
-
-
+            <div className='p-2 md:p-4 space-y-4 md:space-y-6 ml-20 '>
+              {[
+                {
+                  dates: "May 2010 - Dec 2012",
+                  title: "Hafiz e Quran",
+                  institution: "Iqra Jamia Rouza Tul Atfal"
+                },
+                {
+                  dates: "Mar 2015 - June 2017",
+                  title: "Intermediate, Pre-Engineering",
+                  institution: "FG Boys Inter College Karachi"
+                },
+                {
+                  dates: "Feb 2018 - Mar 2022",
+                  title: "Bachelors, CSIT",
+                  institution: "BBSUL Karachi"
+                },
+                {
+                  dates: "Feb 2024 - Present",
+                  title: "Web 3, AI, & Metaverse",
+                  institution: "Governor's Initiative for Artificial Intelligence & Computing"
+                }
+              ].map((item, index) => (
+                <div key={index} className='space-y-2'>
+                  <div className='flex items-center'>
+                    <div className='w-2 h-2 bg-amber-400 rounded-full mr-2'></div>
+                    <span className='text-sm md:text-base'>{item.dates}</span>
+                  </div>
+                  <h2 className='font-bold text-lg md:text-xl text-amber-400 pl-4'>{item.title}</h2>
+                  <p className='text-sm md:text-base pl-4'>{item.institution}</p>
+                  {index < 3 && <br className='hidden md:block' />}
+                </div>
+              ))}
             </div>
           </div>
-
-
         </div>
 
-        <div className=''>
-          <Image src={"/Cap.png"} alt='cap' width={400} height={300} className='mt-10' />
-
+        {/* Image Section - Hidden on mobile and tablet */}
+        <div className='hidden lg:block  lg:ml-8 xl:ml-12 '>
+          <Image src="/Cap.png" alt='cap' width={400} className='mt-6 lg:mt-10 ml-44 w-[300px] lg:w-[350px] xl:w-[400px]' height={300}
+          />
         </div>
-
-
-
       </div>
-
 
       <section id="Skills" />
 
@@ -147,15 +168,14 @@ export default function Homepage() {
 
 
 
-
         <div className='flex flex-col items-center '>
 
           {/* Horizontal Line Above */}
-          <div className="w-1/2 border-t-2 border-gray-300 mb-4"></div>
+          {/* <div className="w-1/2 border-t-2 border-gray-300 mb-4"></div> */}
 
           <h1 className='text-3xl font-bold text-white '> SKILLS</h1>
 
-          <div className='grid grid-cols-3 gap-4 mt-10 px-60 '>
+          <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 mt-10 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-20 max-w-7xl mx-auto'>
 
 
             <div className='border-2 border-white text-center rounded-md bg-sky-950 '>
@@ -253,7 +273,7 @@ export default function Homepage() {
             <h1 className='text-3xl font-bold text-white'> WORK </h1>
           </div>
 
-          <div className='grid grid-cols-2 gap-16 mt-12'>
+          <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 px-8 gap-10 mt-12'>
 
 
             <div className='bg-sky-900 border-2 border-white rounded-xl text-center text-white font-bold text-xl'><p>Governor House Website</p>
@@ -306,36 +326,63 @@ export default function Homepage() {
 
 
 
-        <div className='flex flex-col  bg-sky-900 text-white gap-10'>
-          <div className='flex flex-col items-center'>
-            <h1 className='text-3xl font-bold text-white mt-3'>CONTACT ME</h1>
+        <div className='flex flex-col bg-sky-900 text-white gap-6 py-8 px-4 md:px-8 lg:px-16'>
+          <div className='flex flex-col items-center mb-4'>
+            <h1 className='text-2xl md:text-3xl font-bold text-white'>CONTACT ME</h1>
           </div>
 
-          <div className='flex  gap-4 mt-4 ml-96'>
-            <Image src={"/communication.png"} alt='Email' width={40} height={40} />
-            <p className='mt-2'>:</p>
-            <p className='mt-2'>qureshiumer776@gmail.com</p>
+          <div className='flex flex-col md:flex-row justify-center items-center gap-4 md:gap-6'>
+            {/* Email Section */}
+            <div className='flex items-center w-full max-w-xs md:max-w-none'>
+              <div className='w-10 md:w-12 flex-shrink-0'>
+                <Image
+                  src={"/communication.png"}
+                  alt='Email'
+                  width={40}
+                  height={40}
+                  className='w-full h-auto'
+                />
+              </div>
+              <span className='mx-2'>:</span>
+              <p className='text-sm md:text-base break-all'>
+                qureshiumer776@gmail.com
+              </p>
+            </div>
+
+            {/* Phone Section */}
+            <div className='flex items-center w-full max-w-xs md:max-w-none'>
+              <div className='w-10 md:w-12 flex-shrink-0'>
+                <Image
+                  src={"/phone.png"}
+                  alt='call'
+                  width={40}
+                  height={40}
+                  className='w-full h-auto'
+                />
+              </div>
+              <span className='mx-2'>:</span>
+              <p className='text-sm md:text-base'>
+                0348-2500818
+              </p>
+            </div>
+
+            {/* Address Section */}
+            <div className='flex items-center w-full max-w-xs md:max-w-none'>
+              <div className='w-10 md:w-12 flex-shrink-0'>
+                <Image
+                  src={"/map.png"}
+                  alt='map'
+                  width={40}
+                  height={40}
+                  className='w-full h-auto'
+                />
+              </div>
+              <span className='mx-2'>:</span>
+              <p className='text-sm md:text-base'>
+                Massan Road Near Shireen Jinnah Colony, Clifton, Karachi
+              </p>
+            </div>
           </div>
-
-          <div className='flex gap-4  ml-96'>
-            <Image src={"/phone.png"} alt='call' width={40} height={40} />
-            <p className='mt-2'>:</p>
-            <p className='mt-2'>0348-2500818</p>
-          </div>
-
-
-          <div className='flex gap-4  ml-96 '>
-            <Image src={"/map.png"} alt='map' width={40} height={40} />
-            <p className='mt-2'>:</p>
-            <p className='mt-2'> Massan Road Near Shireen Jinnah Colony, Clifton, Karachi</p>
-          </div>
-
-
-
-
-          <br />
-
-
         </div>
 
 
