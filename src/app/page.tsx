@@ -151,7 +151,7 @@ export default function Homepage() {
         </div>
 
         {/* Image Section - Hidden on mobile and tablet */}
-        <div className='hidden lg:block  lg:ml-8 xl:ml-12 '>
+        <div className='hidden md:hidden lg:block  lg:ml-8 xl:ml-12 '>
           <Image src="/Cap.png" alt='cap' width={400} className='mt-6 lg:mt-10 ml-44 w-[300px] lg:w-[350px] xl:w-[400px]' height={300}
           />
         </div>

@@ -4,13 +4,13 @@ export const Footer = () => {
   return (
     <div>
 
-      <div className='grid grid-cols-1 sm:grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-4  p-4 bg-slate-900 text-white'>
-        <div className='  mt-4'>
-          <h1 className='font-bold text-3xl'>Umar Qureshi</h1>
+      <div className='grid grid-cols-1 gap-10 sm:grid-cols-1 sm:gap-6 md:grid-cols-2   lg:grid-cols-4 lg:gap-20 p-12 bg-slate-900 text-white'>
+        <div className='  mt-4 '>
+          <h1 className='font-bold text-3xl '>Umar Qureshi</h1>
           <p className='mt-4'>Crafted with passion and dedication, this website is a reflection of my journey, skills, and commitment to excellence in every project.</p>
         </div>
 
-        <div className='mt-4 flex flex-col gap-3'>
+        <div className='mt-4 flex flex-col gap-3 '>
 
           <h1 className='text-3xl font-bold w-max'>Quick Links</h1>
           <a href="#" className=''>About</a>
@@ -21,7 +21,7 @@ export const Footer = () => {
         </div>
 
 
-        <div className='mt-4 flex flex-col gap-3'>
+        <div className='mt-4 flex flex-col gap-3 '>
           <h1 className='text-3xl font-bold w-max'>My Services</h1>
           <a href="#" className=''>Web Development</a>
           <a href="#">App Development</a>
@@ -32,7 +32,7 @@ export const Footer = () => {
         </div>
 
 
-        <div className='mt-4 flex flex-col  gap-3'>
+        <div className='mt-4 flex flex-col  gap-3 '>
           <h1 className='text-3xl font-bold w-max'>About</h1>
           <a href="#" className=''>Privacy Policy</a>
           <a href="#">Hire Me</a>
